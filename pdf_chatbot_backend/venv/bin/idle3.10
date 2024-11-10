@@ -1,0 +1,5 @@
+#!/Users/arghapaul/Desktop/MyProjects/gen-ai/pdf_chatbot_app/pdf_chatbot_backend/venv/bin/python3.10
+
+from idlelib.pyshell import main
+if __name__ == '__main__':
+    main()

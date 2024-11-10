@@ -1,0 +1,5 @@
+#!/Users/arghapaul/Desktop/MyProjects/gen-ai/pdf_chatbot_app/pdf_chatbot_backend/venv/bin/python3.10
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()
