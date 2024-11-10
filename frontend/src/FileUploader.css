@@ -1,0 +1,47 @@
+.file-uploader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.file-input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.upload-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.upload-button:hover {
+    background-color: #1d4ed8;
+}
+
+
+.spinner2 {
+    border: 4px solid rgba(0, 0, 0, 0.1);  
+    border-top: 4px solid white;         
+    border-radius: 50%;                    /* Make it a circle */
+    width: 10px;                           /* Width of spinner */
+    height: 10px;                          /* Height of spinner */
+    animation: spin 1s linear infinite;    /* Animation for rotation */           
+}
+
+/* Spinner rotation animation */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
