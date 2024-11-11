@@ -87,5 +87,5 @@ def ask_question(request):
         
         return JsonResponse({"answer": response["output_text"]})
     
-def index(request):
-    return render(request, 'index.html')
+# def index(request):
+#     return render(request, 'index.html')
